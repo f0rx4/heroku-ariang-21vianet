@@ -76,7 +76,7 @@ if (process.env.HEROKU_APP_NAME) {
 				}
 			}
 		)
-		setTimeout(preventIdling, 45 * 60 * 1000) // 45 min
+		setTimeout(preventIdling, 30 * 60 * 1000) // 30 min
 	}
 	preventIdling()
 }
